@@ -1,0 +1,25 @@
+body {
+  background-color: #f7f7f8;
+}
+#top-banner {
+  background-color: #ff9500;
+  text-align: center;
+  color: white;
+  padding: 10px 0px 10px 0px;
+  border-radius: 6px;
+}
+#top-banner a {
+  color: white;
+  text-decoration: none;
+}
+#top-banner a .go-icon {
+  margin-left: 20px;
+}
+
+.site-header {
+  margin: 20px;
+}
+.header-logo {
+  width: 44px;
+  height: 44px;
+}
