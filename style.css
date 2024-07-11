@@ -169,7 +169,62 @@ line-height: 24px;
 .brand-image:last-child{
     border-right: none;
 }
+.home-video{
+  margin-bottom: 100px;
+}
+.benefits-desc{
+  margin-bottom: 0;
+  color: #59595A;
+  font-size: 16px;
+}
+.benefits-cards{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.benefits-card{
+  background-color: white;
+  margin-bottom: 24px;
+  padding: 40px;
+  border-radius: 10px;
+}
+.benefits-card-number{
+  text-align: right;
+  font-size: 60px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #262626  ;
+}
+.benefits-card-title{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #333333;
+}
+.benefits-card-desc{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4C4C4D;
+  margin-bottom: 30px;
+}
+.benefits-card-link{
+  background-color: #FCFCFD;
+  padding: 14px;
+  border-radius: 6px;
+  border: 1px solid #F1F1F3;
+  height: 54px;
+  width: 54px;
+  display: block;
+  margin-left: auto;
+  text-align: center;
+}
 
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1280px;
+  }
+}
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
       padding: 12px 0px 12px 0px;
